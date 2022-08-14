@@ -206,3 +206,44 @@ h1{
     background-color: #dd7600;
     cursor: pointer;
 }
+
+/* footer{
+    background-color: #003400;
+    margin-top: 30px;
+    height: 200px;
+}
+footer p{
+    color: #fff;
+} */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #003400;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    margin-top: 50px;
+}
+.icon-footer{
+    display: flex;
+    flex-direction: row;
+}
+.item-footer{
+    height: 30px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 15px;
+    opacity: 0.6;
+}
+.item-footer:hover{
+    opacity: 1;
+}
+footer p{
+    color: #fff;
+    font-weight: 300;
+}
+.text-footer{
+    font-size: 1rem;
+    color: #fff;
+}
