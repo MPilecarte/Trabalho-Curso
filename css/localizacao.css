@@ -65,3 +65,42 @@ h1{
     height: 300px;
     width: 400px;
 }
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #003400;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    margin-top: 40px;
+}
+.icon-footer{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+.item-footer{
+    height: 30px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 15px;
+    opacity: 0.6;
+}
+.item-footer:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+footer p{
+    color: #fff;
+    font-weight: 300;
+}
+.text-footer{
+    font-size: 1rem;
+    color: #fff;
+}
