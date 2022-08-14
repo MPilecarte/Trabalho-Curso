@@ -62,11 +62,19 @@ h1{
 }
 
 .fotos-pizzaria{
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
 }
-
-
+.local-sp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 80px;
+}
+.local-bh, .local-rio{
+    margin-left: 80px;
+}
 
 
 
