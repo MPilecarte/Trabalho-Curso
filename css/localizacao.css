@@ -61,23 +61,63 @@ h1{
     margin-bottom: 70px;
 }
 
-.fotos-pizzaria{
-    height: 250px;
-    width: 350px;
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+    margin-bottom: 50px;
+    margin-left: 30px;
 }
 .local-sp{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 60px;
-    margin-left: 80px;
+    gap: 80px;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 .local-bh, .local-rio{
     margin-left: 80px;
 }
+.local, .local-bh, .local-rio{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.local-rio{
+    margin-bottom: 40px;
+}
+.fotos-pizzaria{
+    height: 250px;
+    width: 350px;
+}
+.bairro{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.endereco{
+    opacity: 0.6;
+}
+.endereco:hover{
+    opacity: 1;
+    cursor: pointer;
+}
 
-
-
+button{
+    height: 25px;
+    width: 120px;
+    border: none;
+    background-color: #003400;
+    color: #fff;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: #dd7600;
+    cursor: pointer;
+}
+/* Rodapé */
 footer{
     display: flex;
     flex-direction: column;
