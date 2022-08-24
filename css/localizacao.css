@@ -12,13 +12,13 @@ body{
     background-color: rgba(240, 240, 240, 0.351);
 }
 
-
+/* Cabeçalho */
 header{
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
-    background-image: url(../img/forno-pizza3.jpeg);
+    background-image: url(../img/forno-pizza.jpg);
     background-size: cover;
     border-radius: 0 0 20% 20%;
 }
@@ -61,6 +61,7 @@ h1{
     margin-bottom: 70px;
 }
 
+/* Corpo */
 h2{
     font-weight: 600;
     font-size: 30px;

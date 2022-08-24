@@ -12,7 +12,7 @@ body{
     background-color: rgba(240, 240, 240, 0.351);
 }
 
-
+/* Cabeçalho */
 header{
     display: flex;
     align-items: center;
@@ -31,7 +31,6 @@ header{
     gap: 60px;
     border-radius: 8px;
     padding: 6px 130px;
-    
 }
 .menu a{
     color: #003400;
@@ -47,7 +46,6 @@ a.home{
     font-size: 18px;
     font-weight: 800;
 }
-
 .section-header{
     display: flex;
     flex-direction: column;
@@ -62,6 +60,7 @@ h1{
     margin-bottom: 70px;
 }
 
+/* Corpo */
 .icon{
     display: flex;
     flex-direction: column;
@@ -206,7 +205,7 @@ h1{
     cursor: pointer;
 }
 
-
+/* Rodapé */
 footer{
     display: flex;
     flex-direction: column;
