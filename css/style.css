@@ -22,7 +22,9 @@ header{
     margin-bottom: 100px;
     background-image: url(../img/plate-2802332.jpg);
     background-size: cover;
-    border-radius: 0 0 20% 20%;
+    clip-path: ellipse(90% 45% at 50% 35%);
+    padding-bottom: 80px;
+
 }
 .menu{
     display: inline-flex;
