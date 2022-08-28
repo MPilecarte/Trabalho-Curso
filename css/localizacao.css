@@ -60,7 +60,7 @@ h1{
     font-size: 55px;
     color: #fff;
     text-shadow: 1px 1px #cfcece53;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     font-family: 'Bree Serif', serif;
 }
 
@@ -73,25 +73,21 @@ h2{
     margin-bottom: 50px;
     margin-left: 30px;
 }
-.local-sp{
+.local-sp, .local-bh, .local-rio{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 80px;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 }
-.local-bh, .local-rio{
-    margin-left: 80px;
-}
-.local, .local-bh, .local-rio{
+
+.local{
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
-.local-rio{
-    margin-bottom: 40px;
-}
+
 .fotos-pizzaria{
     height: 250px;
     width: 350px;
